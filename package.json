@@ -2,8 +2,9 @@
   "name": "yui-bot",
   "version": "1.0.0",
   "description": "Userbot telegram with nodejs",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,10 +12,14 @@
     "url": "git+https://github.com/danzok/yui-bot.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "@danzok",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/danzok/yui-bot/issues"
   },
-  "homepage": "https://github.com/danzok/yui-bot#readme"
+  "homepage": "https://github.com/danzok/yui-bot#readme",
+  "dependencies": {
+    "input": "^1.0.1",
+    "telegram": "^2.11.5"
+  }
 }
